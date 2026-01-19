@@ -5,6 +5,10 @@ Usage:
     python build_rag_quick.py
 """
 
+import utils.clients
+import utils.http_session
+import utils.transport
+import utils.session
 import os
 import asyncio
 from pathlib import Path
