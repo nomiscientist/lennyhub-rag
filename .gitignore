@@ -1,5 +1,4 @@
 # Environment variables
-.env
 
 # Python
 __pycache__/
@@ -22,7 +21,6 @@ qdrant_storage/
 build_log.txt
 
 # IDE
-.vscode/
 .idea/
 *.swp
 *.swo
@@ -50,3 +48,5 @@ rag_storage/graph_chunk_entity_relation.graphml
 rag_storage/kv_store_doc_status.json
 rag_storage/kv_store_entity_chunks.json
 rag_storage/kv_store_full_docs.json
+config.bat
+node_modules
